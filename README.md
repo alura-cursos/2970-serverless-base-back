@@ -167,3 +167,15 @@ Este projeto expõe os seguintes endpoints:
 - POST `/alunos`
 - PUT `/alunos/:id`
 - DELETE `/alunos/:id`
+
+### Paginação
+
+Esta API utiliza recurso de paginação para limitar a quantidade de registros retornados via GET. O padrão é 5 registros.
+
+Utilize o *query param* `limite=<número>` para estabelecer outros números como limite.
+
+Exemplo:
+
+```
+http://curso-serverless2-api-<id>.us-east-1.elb.amazonaws.com/alunos?limite=50
+```
