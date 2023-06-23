@@ -120,8 +120,6 @@ A pasta-raiz do projeto deverá ter a seguinte estrutura:
 ├── env
 │   └── prod
 │       ├── Main.tf
-│       ├── terraform.tfstate
-│       └── terraform.tfstate.backup
 ├── infra
 │   ├── ALB.tf
 │   ├── DocDB.tf
